@@ -1,9 +1,9 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QMessageBox>
-#include "professordashboard.h"  // Include the header of the Professor Dashboard
-#include "studentdashboard.h"    // Include the header of the Student Dashboard
-#include "parentdashboard.h"     // Include the header of the Parent Dashboard
+#include "professordashboard.h"
+#include "studentdashboard.h"
+#include "parentdashboard.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -54,35 +54,44 @@ void MainWindow::handleLogin()
 
 void MainWindow::showProfessorDashboard(const QString &userType)
 {
-    // Create the Professor Dashboard dynamically
-    ProfessorDashboard *professorDashboard = new ProfessorDashboard(userType);
-    professorDashboard->exec();  // Open the professor dashboard in a modal dialog
+    this->hide();  // Hide the login window
 
-    // Optionally delete the dashboard manually after it is closed
-    delete professorDashboard;
+    ProfessorDashboard *professorDashboard = new ProfessorDashboard(userType);
+    connect(professorDashboard, &QDialog::finished, this, [=]() {
+        this->show();  // Show the login window again when the dashboard is closed
+        delete professorDashboard;
+    });
+
+    professorDashboard->exec();  // Open the professor dashboard in a modal dialog
 }
 
 void MainWindow::showStudentDashboard(const QString &userType)
 {
-    // Create the Student Dashboard dynamically
-    StudentDashboard *studentDashboard = new StudentDashboard(userType);
-    studentDashboard->exec();  // Open the student dashboard in a modal dialog
+    this->hide();  // Hide the login window
 
-    // Optionally delete the dashboard manually after it is closed
-    delete studentDashboard;
+    StudentDashboard *studentDashboard = new StudentDashboard(userType);
+    connect(studentDashboard, &QDialog::finished, this, [=]() {
+        this->show();  // Show the login window again when the dashboard is closed
+        delete studentDashboard;
+    });
+
+    studentDashboard->exec();  // Open the student dashboard in a modal dialog
 }
 
 void MainWindow::showParentDashboard(const QString &userType)
 {
-    // Create the Parent Dashboard dynamically
-    ParentDashboard *parentDashboard = new ParentDashboard(userType);
-    parentDashboard->exec();  // Open the parent dashboard in a modal dialog
+    this->hide();  // Hide the login window
 
-    // Optionally delete the dashboard manually after it is closed
-    delete parentDashboard;
+    ParentDashboard *parentDashboard = new ParentDashboard(userType);
+    connect(parentDashboard, &QDialog::finished, this, [=]() {
+        this->show();  // Show the login window again when the dashboard is closed
+        delete parentDashboard;
+    });
+
+    parentDashboard->exec();  // Open the parent dashboard in a modal dialog
 }
 
 void MainWindow::on_lineEdit_inputRejected()
 {
-    // Your code here (for example, showing an error message or handling input rejection)
+    //
 }
