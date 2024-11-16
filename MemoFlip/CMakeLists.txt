@@ -84,3 +84,9 @@ install(TARGETS MemoFlip
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(MemoFlip)
 endif()
+
+
+# The following code makes the connection with the database
+
+find_package(Qt6 REQUIRED COMPONENTS Sql)
+target_link_libraries(MemoFlip PRIVATE Qt6::Sql)
