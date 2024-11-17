@@ -28,6 +28,9 @@ private:
     void showProfessorDashboard(const QString &userType);
     void showStudentDashboard(const QString &userType);
     void showParentDashboard(const QString &userType);
+
+    //declaration for the database initialization function
+    bool initializeDatabase();
 };
 
 #endif // MAINWINDOW_H

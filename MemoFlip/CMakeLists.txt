@@ -19,6 +19,21 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+	parentdashboard.cpp
+	parentdashboard.h
+	parentdashboard.ui
+	studentdashboard.cpp
+	studentdashboard.h
+	studentdashboard.ui
+	professordashboard.cpp
+	professordashboard.h
+	professordashboard.ui
+	resources.qrc
+	gamewindow.cpp
+	gamewindow.h	
+	gamewindow.ui
+	cardwidget.cpp
+	cardwidget.h
         ${TS_FILES}
 )
 
