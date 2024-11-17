@@ -16,8 +16,13 @@ public:
     explicit StudentDashboard(const QString &userType, QWidget *parent = nullptr);
     ~StudentDashboard();
 
+private slots:
+    void on_playGameButton_clicked();
+
 private:
     Ui::StudentDashboard *ui;
+    QString userType;
+
 };
 
 #endif // STUDENTDASHBOARD_H
