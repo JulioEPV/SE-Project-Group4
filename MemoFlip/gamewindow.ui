@@ -17,7 +17,7 @@
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>20</y>
+     <y>40</y>
      <width>741</width>
      <height>621</height>
     </rect>
@@ -26,8 +26,8 @@
     <property name="spacing">
      <number>4</number>
     </property>
-    <item row="3" column="1">
-     <widget class="QPushButton" name="card14">
+    <item row="2" column="2">
+     <widget class="QPushButton" name="card11">
       <property name="maximumSize">
        <size>
         <width>100</width>
@@ -46,151 +46,7 @@ QPushButton:pressed {
 </string>
       </property>
       <property name="text">
-       <string>card14</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="1">
-     <widget class="QPushButton" name="card10">
-      <property name="maximumSize">
-       <size>
-        <width>100</width>
-        <height>150</height>
-       </size>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton {
-    background-color: #3498db;
-    border: 2px solid #2980b9;
-    border-radius: 10px;
-}
-QPushButton:pressed {
-    background-color: #2980b9;
-}
-</string>
-      </property>
-      <property name="text">
-       <string>card10</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="1">
-     <widget class="QPushButton" name="card2">
-      <property name="maximumSize">
-       <size>
-        <width>100</width>
-        <height>150</height>
-       </size>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton {
-    background-color: #3498db;
-    border: 2px solid #2980b9;
-    border-radius: 10px;
-}
-QPushButton:pressed {
-    background-color: #2980b9;
-}
-</string>
-      </property>
-      <property name="text">
-       <string>card2</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="3">
-     <widget class="QPushButton" name="card8">
-      <property name="maximumSize">
-       <size>
-        <width>100</width>
-        <height>150</height>
-       </size>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton {
-    background-color: #3498db;
-    border: 2px solid #2980b9;
-    border-radius: 10px;
-}
-QPushButton:pressed {
-    background-color: #2980b9;
-}
-</string>
-      </property>
-      <property name="text">
-       <string>card8</string>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="2">
-     <widget class="QPushButton" name="pushButton_11card15">
-      <property name="maximumSize">
-       <size>
-        <width>100</width>
-        <height>150</height>
-       </size>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton {
-    background-color: #3498db;
-    border: 2px solid #2980b9;
-    border-radius: 10px;
-}
-QPushButton:pressed {
-    background-color: #2980b9;
-}
-</string>
-      </property>
-      <property name="text">
-       <string>card15</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="2">
-     <widget class="QPushButton" name="card7">
-      <property name="maximumSize">
-       <size>
-        <width>100</width>
-        <height>150</height>
-       </size>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton {
-    background-color: #3498db;
-    border: 2px solid #2980b9;
-    border-radius: 10px;
-}
-QPushButton:pressed {
-    background-color: #2980b9;
-}
-</string>
-      </property>
-      <property name="text">
-       <string>card7</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="0">
-     <widget class="QPushButton" name="card5">
-      <property name="maximumSize">
-       <size>
-        <width>100</width>
-        <height>150</height>
-       </size>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton {
-    background-color: #3498db;
-    border: 2px solid #2980b9;
-    border-radius: 10px;
-}
-QPushButton:pressed {
-    background-color: #2980b9;
-}
-</string>
-      </property>
-      <property name="text">
-       <string>card5</string>
+       <string>card11</string>
       </property>
      </widget>
     </item>
@@ -218,8 +74,8 @@ QPushButton:pressed {
       </property>
      </widget>
     </item>
-    <item row="2" column="2">
-     <widget class="QPushButton" name="card11">
+    <item row="1" column="0">
+     <widget class="QPushButton" name="card5">
       <property name="maximumSize">
        <size>
         <width>100</width>
@@ -238,12 +94,12 @@ QPushButton:pressed {
 </string>
       </property>
       <property name="text">
-       <string>card11</string>
+       <string>card5</string>
       </property>
      </widget>
     </item>
-    <item row="0" column="3">
-     <widget class="QPushButton" name="card4">
+    <item row="3" column="2">
+     <widget class="QPushButton" name="pushButton_11card15">
       <property name="maximumSize">
        <size>
         <width>100</width>
@@ -262,31 +118,7 @@ QPushButton:pressed {
 </string>
       </property>
       <property name="text">
-       <string>card4</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="2">
-     <widget class="QPushButton" name="card3">
-      <property name="maximumSize">
-       <size>
-        <width>100</width>
-        <height>150</height>
-       </size>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">QPushButton {
-    background-color: #3498db;
-    border: 2px solid #2980b9;
-    border-radius: 10px;
-}
-QPushButton:pressed {
-    background-color: #2980b9;
-}
-</string>
-      </property>
-      <property name="text">
-       <string>card3</string>
+       <string>card15</string>
       </property>
      </widget>
     </item>
@@ -314,8 +146,8 @@ QPushButton:pressed {
       </property>
      </widget>
     </item>
-    <item row="0" column="0">
-     <widget class="QPushButton" name="card1">
+    <item row="1" column="1">
+     <widget class="QPushButton" name="card6">
       <property name="maximumSize">
        <size>
         <width>100</width>
@@ -334,7 +166,79 @@ QPushButton:pressed {
 </string>
       </property>
       <property name="text">
-       <string>card1</string>
+       <string>card6</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="card14">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+}
+QPushButton:pressed {
+    background-color: #2980b9;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>card14</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QPushButton" name="card3">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+}
+QPushButton:pressed {
+    background-color: #2980b9;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>card3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="card9">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+}
+QPushButton:pressed {
+    background-color: #2980b9;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>card9</string>
       </property>
      </widget>
     </item>
@@ -362,8 +266,8 @@ QPushButton:pressed {
       </property>
      </widget>
     </item>
-    <item row="1" column="1">
-     <widget class="QPushButton" name="card6">
+    <item row="0" column="3">
+     <widget class="QPushButton" name="card4">
       <property name="maximumSize">
        <size>
         <width>100</width>
@@ -382,12 +286,12 @@ QPushButton:pressed {
 </string>
       </property>
       <property name="text">
-       <string>card6</string>
+       <string>card4</string>
       </property>
      </widget>
     </item>
-    <item row="2" column="0">
-     <widget class="QPushButton" name="card9">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="card1">
       <property name="maximumSize">
        <size>
         <width>100</width>
@@ -406,7 +310,103 @@ QPushButton:pressed {
 </string>
       </property>
       <property name="text">
-       <string>card9</string>
+       <string>card1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="card10">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+}
+QPushButton:pressed {
+    background-color: #2980b9;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>card10</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QPushButton" name="card7">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+}
+QPushButton:pressed {
+    background-color: #2980b9;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>card7</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QPushButton" name="card8">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+}
+QPushButton:pressed {
+    background-color: #2980b9;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>card8</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="card2">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>150</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+}
+QPushButton:pressed {
+    background-color: #2980b9;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>card2</string>
       </property>
      </widget>
     </item>

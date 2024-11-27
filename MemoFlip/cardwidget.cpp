@@ -1,4 +1,3 @@
-
 #include "cardwidget.h"
 #include <QPropertyAnimation>
 

@@ -16,10 +16,10 @@
   <widget class="QPushButton" name="playGameButton">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>150</y>
-     <width>80</width>
-     <height>24</height>
+     <x>140</x>
+     <y>130</y>
+     <width>91</width>
+     <height>31</height>
     </rect>
    </property>
    <property name="text">

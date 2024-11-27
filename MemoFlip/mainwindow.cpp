@@ -93,13 +93,15 @@ void MainWindow::handleLogin()
 void MainWindow::showProfessorDashboard(const QString &userType)
 {
     this->hide();
-    ProfessorDashboard *professorDashboard = new ProfessorDashboard(userType);
+    // Pass the QSqlDatabase reference to the ProfessorDashboard
+    ProfessorDashboard *professorDashboard = new ProfessorDashboard(db, userType);
     connect(professorDashboard, &QDialog::finished, this, [=]() {
         this->show();
         delete professorDashboard;
     });
     professorDashboard->exec();
 }
+
 
 void MainWindow::showStudentDashboard(const QString &userType)
 {

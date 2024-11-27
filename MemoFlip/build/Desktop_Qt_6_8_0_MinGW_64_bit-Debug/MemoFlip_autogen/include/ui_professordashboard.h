@@ -11,6 +11,9 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -18,12 +21,33 @@ QT_BEGIN_NAMESPACE
 class Ui_ProfessorDashboard
 {
 public:
+    QPushButton *selectImageButton;
+    QPushButton *addCardButton;
+    QLabel *imagePreviewLabel;
+    QLineEdit *conceptLineEdit;
 
     void setupUi(QWidget *ProfessorDashboard)
     {
         if (ProfessorDashboard->objectName().isEmpty())
             ProfessorDashboard->setObjectName("ProfessorDashboard");
-        ProfessorDashboard->resize(400, 300);
+        ProfessorDashboard->resize(530, 389);
+        selectImageButton = new QPushButton(ProfessorDashboard);
+        selectImageButton->setObjectName("selectImageButton");
+        selectImageButton->setGeometry(QRect(160, 80, 80, 24));
+        addCardButton = new QPushButton(ProfessorDashboard);
+        addCardButton->setObjectName("addCardButton");
+        addCardButton->setGeometry(QRect(290, 80, 80, 24));
+        imagePreviewLabel = new QLabel(ProfessorDashboard);
+        imagePreviewLabel->setObjectName("imagePreviewLabel");
+        imagePreviewLabel->setGeometry(QRect(150, 120, 231, 171));
+        QSizePolicy sizePolicy(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Expanding);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(imagePreviewLabel->sizePolicy().hasHeightForWidth());
+        imagePreviewLabel->setSizePolicy(sizePolicy);
+        conceptLineEdit = new QLineEdit(ProfessorDashboard);
+        conceptLineEdit->setObjectName("conceptLineEdit");
+        conceptLineEdit->setGeometry(QRect(160, 40, 211, 24));
 
         retranslateUi(ProfessorDashboard);
 
@@ -33,6 +57,10 @@ public:
     void retranslateUi(QWidget *ProfessorDashboard)
     {
         ProfessorDashboard->setWindowTitle(QCoreApplication::translate("ProfessorDashboard", "Form", nullptr));
+        selectImageButton->setText(QCoreApplication::translate("ProfessorDashboard", "Select Image", nullptr));
+        addCardButton->setText(QCoreApplication::translate("ProfessorDashboard", "Add Card", nullptr));
+        imagePreviewLabel->setText(QString());
+        conceptLineEdit->setText(QCoreApplication::translate("ProfessorDashboard", "Enter Concept", nullptr));
     } // retranslateUi
 
 };

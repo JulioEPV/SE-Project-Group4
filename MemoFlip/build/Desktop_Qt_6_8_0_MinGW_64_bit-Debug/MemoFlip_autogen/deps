@@ -1,5 +1,8 @@
 MemoFlip_autogen/timestamp: \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/QPair \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/QString \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/QTimer \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/QVector \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/q20iterator.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/q20memory.h \
@@ -14,6 +17,7 @@ MemoFlip_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qatomic.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qatomic_cxx11.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qbasicatomic.h \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/qbasictimer.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qbindingstorage.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qbytearray.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -45,6 +49,7 @@ MemoFlip_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qglobalstatic.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qhash.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qhashfunctions.h \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/qiodevice.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qiodevicebase.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qiterable.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qiterator.h \
@@ -57,6 +62,7 @@ MemoFlip_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qmargins.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qmath.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qmetacontainer.h \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/qmetaobject.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qmetatype.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qminmax.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qnamespace.h \
@@ -104,6 +110,7 @@ MemoFlip_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qtdeprecationmarkers.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qtextstream.h \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/qtimer.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qtmetamacros.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qtnoop.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -114,12 +121,15 @@ MemoFlip_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qtversionchecks.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qtypeinfo.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qtypes.h \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/qurl.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qutf8stringview.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qvariant.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qvarlengtharray.h \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/qvector.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qversiontagging.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qxptype_traits.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qyieldcpu.h \
+	C:/Qt/6.8.0/mingw_64/include/QtGui/QPixmap \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qaction.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qbitmap.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qbrush.h \
@@ -133,22 +143,40 @@ MemoFlip_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qkeysequence.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qpaintdevice.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qpalette.h \
+	C:/Qt/6.8.0/mingw_64/include/QtGui/qpicture.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qpixelformat.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qpixmap.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qpolygon.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qregion.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qrgb.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qrgba64.h \
+	C:/Qt/6.8.0/mingw_64/include/QtGui/qtextdocument.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qtgui-config.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qtguiexports.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qtguiglobal.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qtransform.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+	C:/Qt/6.8.0/mingw_64/include/QtSql/QSqlDatabase \
+	C:/Qt/6.8.0/mingw_64/include/QtSql/qsqldatabase.h \
+	C:/Qt/6.8.0/mingw_64/include/QtSql/qtsql-config.h \
+	C:/Qt/6.8.0/mingw_64/include/QtSql/qtsqlexports.h \
+	C:/Qt/6.8.0/mingw_64/include/QtSql/qtsqlglobal.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QDialog \
+	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QGridLayout \
+	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QLabel \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QMainWindow \
+	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QPushButton \
+	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qboxlayout.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qdialog.h \
+	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qframe.h \
+	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qgridlayout.h \
+	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qlabel.h \
+	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qlayout.h \
+	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qlayoutitem.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qmainwindow.h \
+	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qpushbutton.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qsizepolicy.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtabwidget.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
@@ -274,6 +302,31 @@ MemoFlip_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets-relwithdebinfo.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsTargets.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsVersionlessTargets.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginAdditionalTargetInfo.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginConfig.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginTargets-relwithdebinfo.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginTargets.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginAdditionalTargetInfo.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginConfig.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginTargets-relwithdebinfo.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginTargets.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginAdditionalTargetInfo.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfig.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets-relwithdebinfo.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginConfig.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-relwithdebinfo.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlAdditionalTargetInfo.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlConfig.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlConfigVersion.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlConfigVersionImpl.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlDependencies.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlPlugins.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlTargets-relwithdebinfo.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlTargets.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Sql/Qt6SqlVersionlessAliasTargets.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake \
@@ -547,6 +600,10 @@ MemoFlip_autogen/timestamp: \
 	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
 	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
 	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/moc_predefs.h \
+	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/cardwidget.cpp \
+	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/cardwidget.h \
+	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/gamewindow.cpp \
+	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/gamewindow.h \
 	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/main.cpp \
 	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/mainwindow.cpp \
 	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/mainwindow.h \
@@ -554,8 +611,10 @@ MemoFlip_autogen/timestamp: \
 	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/parentdashboard.h \
 	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/professordashboard.cpp \
 	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/professordashboard.h \
+	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/resources.qrc \
 	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/studentdashboard.cpp \
 	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/studentdashboard.h \
+	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/gamewindow.ui \
 	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/mainwindow.ui \
 	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/parentdashboard.ui \
 	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/professordashboard.ui \

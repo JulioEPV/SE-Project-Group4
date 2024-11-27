@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QSqlDatabase>  // Include QSqlDatabase to manage the database
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -14,7 +15,7 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr);
+    explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
 private slots:
@@ -29,8 +30,10 @@ private:
     void showStudentDashboard(const QString &userType);
     void showParentDashboard(const QString &userType);
 
-    //declaration for the database initialization function
+    // Declaration for the database initialization function
     bool initializeDatabase();
+
+    QSqlDatabase db;  // Declare a member to store the QSqlDatabase object
 };
 
 #endif // MAINWINDOW_H

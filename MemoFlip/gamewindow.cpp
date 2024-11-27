@@ -1,4 +1,3 @@
-
 #include "gamewindow.h"
 #include "ui_gamewindow.h"
 #include <QMessageBox>
@@ -11,7 +10,7 @@
 #include <QSettings>
 
 GameWindow::GameWindow(QWidget *parent)
-    : QWidget(parent)
+    : QDialog(parent)
     , ui(new Ui::GameWindow)
     , firstSelectedCard(nullptr)
     , secondSelectedCard(nullptr)

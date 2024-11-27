@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -18,12 +19,16 @@ QT_BEGIN_NAMESPACE
 class Ui_StudentDashboard
 {
 public:
+    QPushButton *playGameButton;
 
     void setupUi(QWidget *StudentDashboard)
     {
         if (StudentDashboard->objectName().isEmpty())
             StudentDashboard->setObjectName("StudentDashboard");
         StudentDashboard->resize(400, 300);
+        playGameButton = new QPushButton(StudentDashboard);
+        playGameButton->setObjectName("playGameButton");
+        playGameButton->setGeometry(QRect(130, 150, 80, 24));
 
         retranslateUi(StudentDashboard);
 
@@ -33,6 +38,7 @@ public:
     void retranslateUi(QWidget *StudentDashboard)
     {
         StudentDashboard->setWindowTitle(QCoreApplication::translate("StudentDashboard", "Form", nullptr));
+        playGameButton->setText(QCoreApplication::translate("StudentDashboard", "Play Game", nullptr));
     } // retranslateUi
 
 };

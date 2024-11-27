@@ -25,4 +25,5 @@ void StudentDashboard::on_playGameButton_clicked()
     GameWindow *gameWindow = new GameWindow(this);
     //gameWindow->setModal(false); // Non-modal, allows multiple windows
     gameWindow->show();
+    gameWindow->setModal(true);
 }

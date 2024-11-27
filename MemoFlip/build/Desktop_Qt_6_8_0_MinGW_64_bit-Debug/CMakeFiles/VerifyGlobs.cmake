@@ -42,11 +42,16 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/*.cpp")
 set(OLD_GLOB
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/EWIEGA46WW/moc_cardwidget.cpp"
+  "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/EWIEGA46WW/moc_gamewindow.cpp"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/EWIEGA46WW/moc_mainwindow.cpp"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/EWIEGA46WW/moc_parentdashboard.cpp"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/EWIEGA46WW/moc_professordashboard.cpp"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/EWIEGA46WW/moc_studentdashboard.cpp"
+  "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/EWIEGA46WW/qrc_resources.cpp"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/mocs_compilation.cpp"
+  "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/cardwidget.cpp"
+  "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/gamewindow.cpp"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/main.cpp"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/mainwindow.cpp"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/parentdashboard.cpp"
@@ -70,11 +75,14 @@ endif()
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/*.h")
 set(OLD_GLOB
+  "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/include/ui_gamewindow.h"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/include/ui_mainwindow.h"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/include/ui_parentdashboard.h"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/include/ui_professordashboard.h"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/include/ui_studentdashboard.h"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/moc_predefs.h"
+  "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/cardwidget.h"
+  "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/gamewindow.h"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/mainwindow.h"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/parentdashboard.h"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/professordashboard.h"
@@ -160,6 +168,7 @@ endif()
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/*.qrc")
 set(OLD_GLOB
+  "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/resources.qrc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -178,6 +187,7 @@ endif()
 # _directory_contents at C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/*.ui")
 set(OLD_GLOB
+  "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/gamewindow.ui"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/mainwindow.ui"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/parentdashboard.ui"
   "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/professordashboard.ui"

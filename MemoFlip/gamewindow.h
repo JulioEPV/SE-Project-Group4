@@ -1,7 +1,7 @@
 #ifndef GAMEWINDOW_H
 #define GAMEWINDOW_H
 
-#include <QWidget>
+#include <QDialog>
 #include <QGridLayout>
 #include <QVector>
 #include <QPair>
@@ -19,7 +19,7 @@ struct CardData
     int pairId;
 };
 
-class GameWindow  : public QWidget
+class GameWindow  : public QDialog  // Change QWidget to QDialog
 {
     Q_OBJECT
 
@@ -59,7 +59,6 @@ private:
     void updateTimerLabel();
     void updateHighScores();
     void displayHighScores();
-
 };
 
 #endif // GAMEWINDOW_H
