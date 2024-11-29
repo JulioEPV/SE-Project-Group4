@@ -28,7 +28,7 @@ public:
         StudentDashboard->resize(400, 300);
         playGameButton = new QPushButton(StudentDashboard);
         playGameButton->setObjectName("playGameButton");
-        playGameButton->setGeometry(QRect(130, 150, 80, 24));
+        playGameButton->setGeometry(QRect(140, 130, 91, 31));
 
         retranslateUi(StudentDashboard);
 
