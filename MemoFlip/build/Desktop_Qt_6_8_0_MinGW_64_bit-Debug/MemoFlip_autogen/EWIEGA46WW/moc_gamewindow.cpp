@@ -37,14 +37,12 @@ namespace {
 struct qt_meta_stringdata_CLASSGameWindowENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSGameWindowENDCLASS = QtMocHelpers::stringData(
     "GameWindow",
-    "handleCardClicked",
+    "restartRequested",
     "",
-    "CardWidget*",
-    "card",
-    "restartGame",
-    "on_exitButton_clicked",
-    "on_shuffleButton_clicked",
-    "on_restartButton_clicked"
+    "updateTimer",
+    "flipCard",
+    "shuffleCards",
+    "restartGame"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -62,17 +60,21 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSGameWindowENDCLASS[] = {
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       0,       // signalCount
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    0,   44,    2, 0x06,    1 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   44,    2, 0x08,    1 /* Private */,
-       5,    0,   47,    2, 0x08,    3 /* Private */,
-       6,    0,   48,    2, 0x08,    4 /* Private */,
-       7,    0,   49,    2, 0x08,    5 /* Private */,
-       8,    0,   50,    2, 0x08,    6 /* Private */,
+       3,    0,   45,    2, 0x08,    2 /* Private */,
+       4,    0,   46,    2, 0x08,    3 /* Private */,
+       5,    0,   47,    2, 0x08,    4 /* Private */,
+       6,    0,   48,    2, 0x08,    5 /* Private */,
+
+ // signals: parameters
+    QMetaType::Void,
 
  // slots: parameters
-    QMetaType::Void, 0x80000000 | 3,    4,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -90,16 +92,15 @@ Q_CONSTINIT const QMetaObject GameWindow::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSGameWindowENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<GameWindow, std::true_type>,
-        // method 'handleCardClicked'
+        // method 'restartRequested'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<CardWidget *, std::false_type>,
+        // method 'updateTimer'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'flipCard'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'shuffleCards'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'restartGame'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'on_exitButton_clicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'on_shuffleButton_clicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'on_restartButton_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -111,25 +112,24 @@ void GameWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<GameWindow *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->handleCardClicked((*reinterpret_cast< std::add_pointer_t<CardWidget*>>(_a[1]))); break;
-        case 1: _t->restartGame(); break;
-        case 2: _t->on_exitButton_clicked(); break;
-        case 3: _t->on_shuffleButton_clicked(); break;
-        case 4: _t->on_restartButton_clicked(); break;
+        case 0: _t->restartRequested(); break;
+        case 1: _t->updateTimer(); break;
+        case 2: _t->flipCard(); break;
+        case 3: _t->shuffleCards(); break;
+        case 4: _t->restartGame(); break;
         default: ;
         }
-    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        switch (_id) {
-        default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
-        case 0:
-            switch (*reinterpret_cast<int*>(_a[1])) {
-            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
-            case 0:
-                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< CardWidget* >(); break;
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (GameWindow::*)();
+            if (_t _q_method = &GameWindow::restartRequested; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 0;
+                return;
             }
-            break;
         }
     }
+    (void)_a;
 }
 
 const QMetaObject *GameWindow::metaObject() const
@@ -156,9 +156,15 @@ int GameWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         _id -= 5;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 5)
-            qt_static_metacall(this, _c, _id, _a);
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
         _id -= 5;
     }
     return _id;
+}
+
+// SIGNAL 0
+void GameWindow::restartRequested()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 QT_WARNING_POP

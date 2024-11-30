@@ -1,8 +1,8 @@
 C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/EWIEGA46WW/moc_gamewindow.cpp: C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/gamewindow.h \
   C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/moc_predefs.h \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/QPair \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/QByteArray \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/QList \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QTimer \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/QVector \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20iterator.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20memory.h \
@@ -62,6 +62,7 @@ C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit
   C:/Qt/6.8.0/mingw_64/include/QtCore/qmargins.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qmath.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qmetacontainer.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qmetaobject.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qmetatype.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qminmax.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qnamespace.h \
@@ -124,11 +125,10 @@ C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit
   C:/Qt/6.8.0/mingw_64/include/QtCore/qutf8stringview.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qvariant.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qvarlengtharray.h \
-  C:/Qt/6.8.0/mingw_64/include/QtCore/qvector.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qyieldcpu.h \
-  C:/Qt/6.8.0/mingw_64/include/QtGui/QPixmap \
+  C:/Qt/6.8.0/mingw_64/include/QtGui/QImage \
   C:/Qt/6.8.0/mingw_64/include/QtGui/qaction.h \
   C:/Qt/6.8.0/mingw_64/include/QtGui/qbitmap.h \
   C:/Qt/6.8.0/mingw_64/include/QtGui/qbrush.h \
@@ -156,6 +156,12 @@ C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit
   C:/Qt/6.8.0/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.8.0/mingw_64/include/QtSql/QSqlQuery \
+  C:/Qt/6.8.0/mingw_64/include/QtSql/qsqldatabase.h \
+  C:/Qt/6.8.0/mingw_64/include/QtSql/qsqlquery.h \
+  C:/Qt/6.8.0/mingw_64/include/QtSql/qtsql-config.h \
+  C:/Qt/6.8.0/mingw_64/include/QtSql/qtsqlexports.h \
+  C:/Qt/6.8.0/mingw_64/include/QtSql/qtsqlglobal.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QDialog \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QGridLayout \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QLabel \
@@ -379,5 +385,4 @@ C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/cardwidget.h
+  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h

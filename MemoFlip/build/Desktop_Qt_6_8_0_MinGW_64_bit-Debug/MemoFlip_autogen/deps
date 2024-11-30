@@ -1,8 +1,8 @@
 MemoFlip_autogen/timestamp: \
-	C:/Qt/6.8.0/mingw_64/include/QtCore/QPair \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/QByteArray \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/QList \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/QString \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/QTimer \
-	C:/Qt/6.8.0/mingw_64/include/QtCore/QVector \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/q20iterator.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/q20memory.h \
@@ -125,10 +125,10 @@ MemoFlip_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qutf8stringview.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qvariant.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qvarlengtharray.h \
-	C:/Qt/6.8.0/mingw_64/include/QtCore/qvector.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qversiontagging.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qxptype_traits.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qyieldcpu.h \
+	C:/Qt/6.8.0/mingw_64/include/QtGui/QImage \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/QPixmap \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qaction.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qbitmap.h \
@@ -158,7 +158,9 @@ MemoFlip_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
 	C:/Qt/6.8.0/mingw_64/include/QtSql/QSqlDatabase \
+	C:/Qt/6.8.0/mingw_64/include/QtSql/QSqlQuery \
 	C:/Qt/6.8.0/mingw_64/include/QtSql/qsqldatabase.h \
+	C:/Qt/6.8.0/mingw_64/include/QtSql/qsqlquery.h \
 	C:/Qt/6.8.0/mingw_64/include/QtSql/qtsql-config.h \
 	C:/Qt/6.8.0/mingw_64/include/QtSql/qtsqlexports.h \
 	C:/Qt/6.8.0/mingw_64/include/QtSql/qtsqlglobal.h \

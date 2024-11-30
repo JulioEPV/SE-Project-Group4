@@ -2,63 +2,64 @@
 #define GAMEWINDOW_H
 
 #include <QDialog>
-#include <QGridLayout>
-#include <QVector>
-#include <QPair>
-#include <QLabel>
+#include <QList>
+#include <QPushButton>
 #include <QTimer>
-#include "cardwidget.h"
+#include <QLabel>
+#include <QSqlQuery>
+#include <QByteArray>
+#include <QImage>
+#include <QGridLayout>
 
-QT_BEGIN_NAMESPACE
-namespace Ui { class GameWindow; }
-QT_END_NAMESPACE
+namespace Ui {
+class GameWindow;
+}
 
-struct CardData
-{
-    QPixmap frontImage;
-    int pairId;
+// Struct to hold concept, image, and ID for cards
+struct CardData {
+    QString concept;   // Concept text on the card
+    QByteArray image;  // Image data for the card
+    int id;            // Unique ID for matching pairs
 };
 
-class GameWindow  : public QDialog  // Change QWidget to QDialog
+class GameWindow : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit GameWindow(QWidget *parent = nullptr);
+    explicit GameWindow(const QString &username, QWidget *parent = nullptr);  // Constructor now takes `username`
     ~GameWindow();
 
-private slots:
-    void handleCardClicked(CardWidget* card);
-    void restartGame();
-    void on_exitButton_clicked();
-    void on_shuffleButton_clicked();
-    void on_restartButton_clicked();
+signals:
+    void restartRequested();  // Signal to request a game restart
 
 private:
     Ui::GameWindow *ui;
-    QWidget *centralWidget;
-    QGridLayout *gridLayout;
-    QVector<CardWidget*> cards;
-    QVector<CardData> cardData; // pair of front images (image and corresponding concept description)
+    QTimer *timer;            // Game timer
+    QLabel *timerLabel;       // Label to display elapsed time
+    int timeElapsed;          // Elapsed time in seconds
+    int score;                // Current score
+    int correctMatches;       // Correct matches count
+    QString username;         // Player's username
 
-    CardWidget* firstSelectedCard;
-    CardWidget* secondSelectedCard;
-    bool isProcessing;
+    QGridLayout *gridLayout;  // Grid layout for cards
 
-    int moveCount;
-    int elapsedTime;
-    QLabel* moveLabel;
-    QLabel* timerLabel;
-    QTimer* gameTimer;
+    QList<CardData> loadCardDataFromDatabase();  // Load cards from database
+    void updateCardButtonWithImage(QPushButton *cardButton, const QByteArray &imageData);  // Update button image
+    void flipCardBack(QPushButton *card);  // Flip card back to its hidden state
 
-    void loadCardData();
-    void shuffleCards();
-    void setupGame();
-    void resetSelection();
-    void updateMoveLabel();
-    void updateTimerLabel();
-    void updateHighScores();
-    void displayHighScores();
+    QPushButton *firstCard = nullptr;  // First clicked card
+    QPushButton *secondCard = nullptr; // Second clicked card
+    QString firstCardData;             // Concept/image of first card
+    bool waitingForSecondClick = false; // Waiting for second click flag
+    int firstCardId = -1;              // First card's ID
+    int secondCardId = -1;             // Second card's ID
+
+private slots:
+    void updateTimer();    // Timer slot
+    void flipCard();       // Handle card flips
+    void shuffleCards();   // Shuffle the cards
+    void restartGame();    // Restart the game
 };
 
 #endif // GAMEWINDOW_H

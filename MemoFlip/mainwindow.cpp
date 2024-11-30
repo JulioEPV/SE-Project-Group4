@@ -60,26 +60,28 @@ void MainWindow::handleLogin()
     QString username = ui->usernameLineEdit->text();
     QString password = ui->passwordLineEdit->text();
 
-    // Print the entered values
+    // Print the entered values for debugging
     qDebug() << "Entered User Type: " << userType;
     qDebug() << "Entered Username: " << username;
     qDebug() << "Entered Password: " << password;
 
-    // Prepare the query with direct value insertion
+    // Prepare the query using parameterized statements to avoid SQL injection
     QSqlQuery query;
-    QString queryString = QString("SELECT * FROM users WHERE userType = '%1' AND username = '%2' AND password = '%3'")
-                              .arg(userType).arg(username).arg(password);
+    query.prepare("SELECT * FROM users WHERE userType = :userType AND username = :username AND password = :password");
+    query.bindValue(":userType", userType);
+    query.bindValue(":username", username);
+    query.bindValue(":password", password);
 
-    qDebug() << "Prepared Query: " << queryString;
+    qDebug() << "Prepared Query: " << query.executedQuery();
 
     // Execute the query
-    if (query.exec(queryString) && query.next()) {
+    if (query.exec() && query.next()) {
         // Credentials are valid
         qDebug() << "Login successful!";
         if (userType == "Professor") {
             showProfessorDashboard(userType);
         } else if (userType == "Student") {
-            showStudentDashboard(userType);
+            showStudentDashboard(username); // Pass the actual username
         } else if (userType == "Parent") {
             showParentDashboard(userType);
         }
@@ -102,11 +104,12 @@ void MainWindow::showProfessorDashboard(const QString &userType)
     professorDashboard->exec();
 }
 
-
-void MainWindow::showStudentDashboard(const QString &userType)
+void MainWindow::showStudentDashboard(const QString &username)
 {
     this->hide();
-    StudentDashboard *studentDashboard = new StudentDashboard(userType);
+    QString userType = "Student";  // You can get this value from the login or pass it along
+    // Pass the username to the StudentDashboard
+    StudentDashboard *studentDashboard = new StudentDashboard(userType, username);
     connect(studentDashboard, &QDialog::finished, this, [=]() {
         this->show();
         delete studentDashboard;
@@ -127,5 +130,5 @@ void MainWindow::showParentDashboard(const QString &userType)
 
 void MainWindow::on_lineEdit_inputRejected()
 {
-    //
+    // Handle input rejection if necessary
 }
