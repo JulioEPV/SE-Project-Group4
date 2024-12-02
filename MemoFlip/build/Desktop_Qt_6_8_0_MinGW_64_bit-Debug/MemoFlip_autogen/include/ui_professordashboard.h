@@ -51,7 +51,7 @@ public:
         conceptLineEdit->setGeometry(QRect(160, 40, 211, 24));
         professor = new QLabel(ProfessorDashboard);
         professor->setObjectName("professor");
-        professor->setGeometry(QRect(160, 120, 221, 131));
+        professor->setGeometry(QRect(370, 120, 151, 111));
 
         retranslateUi(ProfessorDashboard);
 
