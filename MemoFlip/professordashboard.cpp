@@ -7,6 +7,8 @@
 #include <QPixmap>
 #include <QMessageBox>
 #include <QCryptographicHash>
+#include <QPixmap>
+
 
 ProfessorDashboard::ProfessorDashboard(QSqlDatabase &db, const QString &userType, QWidget *parent) :
     QDialog(parent),
@@ -17,6 +19,12 @@ ProfessorDashboard::ProfessorDashboard(QSqlDatabase &db, const QString &userType
 
     // Set the window title based on the user type
     setWindowTitle(userType + " Dashboard");
+
+    // Nintendo
+    QPixmap pix5("../../images/(38)professor.jpg");
+    int w5 = ui ->professor->width();
+    int h5 = ui ->professor->height();
+    ui->professor->setPixmap(pix5.scaled(w5,h5,Qt::KeepAspectRatio));
 
 }
 

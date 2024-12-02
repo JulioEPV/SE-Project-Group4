@@ -71,6 +71,19 @@
     <string>Enter Concept</string>
    </property>
   </widget>
+  <widget class="QLabel" name="professor">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>120</y>
+     <width>221</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

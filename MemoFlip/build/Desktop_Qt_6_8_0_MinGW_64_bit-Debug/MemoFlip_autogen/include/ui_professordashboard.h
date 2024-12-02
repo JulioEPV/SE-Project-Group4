@@ -25,6 +25,7 @@ public:
     QPushButton *addCardButton;
     QLabel *imagePreviewLabel;
     QLineEdit *conceptLineEdit;
+    QLabel *professor;
 
     void setupUi(QWidget *ProfessorDashboard)
     {
@@ -48,6 +49,9 @@ public:
         conceptLineEdit = new QLineEdit(ProfessorDashboard);
         conceptLineEdit->setObjectName("conceptLineEdit");
         conceptLineEdit->setGeometry(QRect(160, 40, 211, 24));
+        professor = new QLabel(ProfessorDashboard);
+        professor->setObjectName("professor");
+        professor->setGeometry(QRect(160, 120, 221, 131));
 
         retranslateUi(ProfessorDashboard);
 
@@ -61,6 +65,7 @@ public:
         addCardButton->setText(QCoreApplication::translate("ProfessorDashboard", "Add Card", nullptr));
         imagePreviewLabel->setText(QString());
         conceptLineEdit->setText(QCoreApplication::translate("ProfessorDashboard", "Enter Concept", nullptr));
+        professor->setText(QString());
     } // retranslateUi
 
 };
