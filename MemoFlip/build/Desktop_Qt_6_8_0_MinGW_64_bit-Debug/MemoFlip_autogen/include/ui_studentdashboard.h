@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
 
@@ -20,6 +21,8 @@ class Ui_StudentDashboard
 {
 public:
     QPushButton *playGameButton;
+    QLabel *Welcome;
+    QLabel *nintendo;
 
     void setupUi(QWidget *StudentDashboard)
     {
@@ -29,6 +32,12 @@ public:
         playGameButton = new QPushButton(StudentDashboard);
         playGameButton->setObjectName("playGameButton");
         playGameButton->setGeometry(QRect(140, 130, 91, 31));
+        Welcome = new QLabel(StudentDashboard);
+        Welcome->setObjectName("Welcome");
+        Welcome->setGeometry(QRect(50, 30, 251, 81));
+        nintendo = new QLabel(StudentDashboard);
+        nintendo->setObjectName("nintendo");
+        nintendo->setGeometry(QRect(60, 170, 341, 111));
 
         retranslateUi(StudentDashboard);
 
@@ -39,6 +48,8 @@ public:
     {
         StudentDashboard->setWindowTitle(QCoreApplication::translate("StudentDashboard", "Form", nullptr));
         playGameButton->setText(QCoreApplication::translate("StudentDashboard", "Play Game", nullptr));
+        Welcome->setText(QString());
+        nintendo->setText(QString());
     } // retranslateUi
 
 };

@@ -1,6 +1,7 @@
 #include "studentdashboard.h"
 #include "ui_studentdashboard.h"
 #include "gamewindow.h"
+#include <QPixmap>
 
 StudentDashboard::StudentDashboard(const QString &userType, const QString &username, QWidget *parent) :
     QDialog(parent),
@@ -15,6 +16,18 @@ StudentDashboard::StudentDashboard(const QString &userType, const QString &usern
 
     // Connect the Play Game button to open GameWindow
     connect(ui->playGameButton, &QPushButton::clicked, this, &StudentDashboard::on_playGameButton_clicked);
+
+    // Welcome
+    QPixmap pix3("../../images/(36)welcome.jpg");
+    int w3 = ui ->Welcome->width();
+    int h3 = ui ->Welcome->height();
+    ui->Welcome->setPixmap(pix3.scaled(w3,h3,Qt::KeepAspectRatio));
+
+    // Nintendo
+    QPixmap pix4("../../images/(37)nintendo.jpg");
+    int w4 = ui ->nintendo->width();
+    int h4 = ui ->nintendo->height();
+    ui->nintendo->setPixmap(pix4.scaled(w4,h4,Qt::KeepAspectRatio));
 }
 
 StudentDashboard::~StudentDashboard()
