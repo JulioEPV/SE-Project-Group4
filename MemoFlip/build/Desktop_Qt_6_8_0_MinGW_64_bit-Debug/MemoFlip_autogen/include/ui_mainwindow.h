@@ -33,6 +33,9 @@ public:
     QComboBox *userTypeComboBox;
     QLineEdit *usernameLineEdit;
     QLineEdit *passwordLineEdit;
+    QLabel *label_4;
+    QLabel *title;
+    QLabel *iboard;
     QStatusBar *statusbar;
     QMenuBar *menubar;
 
@@ -66,13 +69,23 @@ public:
         passwordLineEdit->setObjectName("passwordLineEdit");
         passwordLineEdit->setGeometry(QRect(250, 230, 113, 24));
         passwordLineEdit->setEchoMode(QLineEdit::EchoMode::Password);
+        label_4 = new QLabel(centralwidget);
+        label_4->setObjectName("label_4");
+        label_4->setGeometry(QRect(170, 300, 271, 91));
+        label_4->setScaledContents(false);
+        title = new QLabel(centralwidget);
+        title->setObjectName("title");
+        title->setGeometry(QRect(140, 60, 281, 81));
+        iboard = new QLabel(centralwidget);
+        iboard->setObjectName("iboard");
+        iboard->setGeometry(QRect(40, 260, 171, 141));
         MainWindow->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
         MainWindow->setStatusBar(statusbar);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 551, 21));
+        menubar->setGeometry(QRect(0, 0, 551, 18));
         MainWindow->setMenuBar(menubar);
 
         retranslateUi(MainWindow);
@@ -90,6 +103,9 @@ public:
         userTypeComboBox->setItemText(0, QString());
 
         passwordLineEdit->setText(QString());
+        label_4->setText(QString());
+        title->setText(QString());
+        iboard->setText(QString());
     } // retranslateUi
 
 };

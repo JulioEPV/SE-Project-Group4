@@ -1,5 +1,5 @@
-C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/EWIEGA46WW/moc_gamewindow.cpp: C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/gamewindow.h \
-  C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/moc_predefs.h \
+C:/Users/jepin/Github\ Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/EWIEGA46WW/moc_gamewindow.cpp: C:/Users/jepin/Github\ Projects/SE-Project-Group4/MemoFlip/gamewindow.h \
+  C:/Users/jepin/Github\ Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/moc_predefs.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QByteArray \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QList \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QTimer \

@@ -8,6 +8,7 @@
 #include "professordashboard.h"
 #include "studentdashboard.h"
 #include "parentdashboard.h"
+#include <QPixmap>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -27,6 +28,19 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Connect the login button to the login function
     connect(ui->loginButton, &QPushButton::clicked, this, &MainWindow::on_loginButton_clicked);
+    loadImageToLabel();
+
+    // Title
+    QPixmap pix("../../images/(34)Title.jpg");
+    int w = ui ->title->width();
+     int h = ui ->title->height();
+    ui->title->setPixmap(pix.scaled(w,h,Qt::KeepAspectRatio));
+
+     // board
+     QPixmap pix2("../../images/(35)iboard.jpg");
+     int w2 = ui ->iboard->width();
+     int h2 = ui ->iboard->height();
+     ui->iboard->setPixmap(pix2.scaled(w2,h2,Qt::KeepAspectRatio));
 }
 
 MainWindow::~MainWindow()
@@ -128,7 +142,17 @@ void MainWindow::showParentDashboard(const QString &userType)
     parentDashboard->exec();
 }
 
+void MainWindow::loadImageToLabel() {
+    QString imagePath = "./../images/(33)Title.jpg";
+    QPixmap image(imagePath);
+    ui->label_4->setPixmap(image);
+    ui->label_4->setScaledContents(true);
+}
+
+
 void MainWindow::on_lineEdit_inputRejected()
 {
     // Handle input rejection if necessary
 }
+
+

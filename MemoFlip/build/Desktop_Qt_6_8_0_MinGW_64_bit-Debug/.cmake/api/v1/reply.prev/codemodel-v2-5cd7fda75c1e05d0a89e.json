@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-a801e454e2f62cd412eb.json",
+					"jsonFile" : "directory-.-Debug-ec68f3c85d3bdad895ea.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "MemoFlip::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-MemoFlip-Debug-7e4b36258045df96093f.json",
+					"jsonFile" : "target-MemoFlip-Debug-34b603b1397a5853c7ac.json",
 					"name" : "MemoFlip",
 					"projectIndex" : 0
 				},
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug",
-		"source" : "C:/Users/alexi/Desktop/SoftwareProj/MemoFlip"
+		"build" : "C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip"
 	},
 	"version" : 
 	{

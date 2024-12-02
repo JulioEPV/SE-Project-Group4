@@ -17,6 +17,7 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void loadImageToLabel();
 
 private slots:
     void on_loginButton_clicked();   // This is for login button's click event

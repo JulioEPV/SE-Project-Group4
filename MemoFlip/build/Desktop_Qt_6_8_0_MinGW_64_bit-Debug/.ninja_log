@@ -1,44 +1,66 @@
 # ninja log v6
-14	84	7546763928051611	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	60888e87a722e3e3
-639	2893	7546763934291863	CMakeFiles/MemoFlip.dir/gamewindow.cpp.obj	98a3993bde0d991f
-626	2435	7546763934180441	CMakeFiles/MemoFlip.dir/MemoFlip_autogen/mocs_compilation.cpp.obj	523dc82089ea470f
-636	2681	7546763934271859	CMakeFiles/MemoFlip.dir/professordashboard.cpp.obj	ec5da6ae62a0d3b
-92	626	7546763933391290	MemoFlip_autogen/timestamp	9d33c1bd6753ff03
-92	626	7546763933391290	MemoFlip_autogen/mocs_compilation.cpp	9d33c1bd6753ff03
-92	626	7546763933391290	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/timestamp	9d33c1bd6753ff03
-531	2202	7543791211261518	CMakeFiles/MemoFlip.dir/main.cpp.obj	4a73bfe86f49b5ac
-2077	2384	7546420380578137	MemoFlip.exe	c35da140ad75f7e4
-703	2908	7546761886167607	CMakeFiles/MemoFlip.dir/mainwindow.cpp.obj	741885f7e412fa56
-92	626	7546763933391290	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/mocs_compilation.cpp	9d33c1bd6753ff03
-142	2299	7543772128753394	build.ninja	ce745e7739cb2058
+538	5244	7548133330593116	CMakeFiles/MemoFlip.dir/gamewindow.cpp.obj	376014ae126806b4
+1945	8609	7547315889434727	CMakeFiles/MemoFlip.dir/MemoFlip_autogen/mocs_compilation.cpp.obj	c6a15b065cb8a86a
+511	4941	7548133330322989	CMakeFiles/MemoFlip.dir/professordashboard.cpp.obj	a173a73d09a2faea
+154	434	7548133326752758	MemoFlip_autogen/timestamp	af1c82d4c97b62d
+154	434	7548133326752758	MemoFlip_autogen/mocs_compilation.cpp	af1c82d4c97b62d
+5245	5702	7548133377664652	MemoFlip.exe	c35da140ad75f7e4
+1984	8129	7547315889818039	CMakeFiles/MemoFlip.dir/main.cpp.obj	83fe0615c8534df1
+435	4875	7548133329555725	CMakeFiles/MemoFlip.dir/mainwindow.cpp.obj	30a2fe1086bf6115
+142	2299	7547217569254457	build.ninja	ce745e7739cb2058
 68	81	7529115487122598	CMakeFiles/clean.additional	baedbe210acaa455
+2695	2782	7547174914922164	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/EWIEGA46WW/qrc_resources.cpp	ba566b54923ee14b
 81	86	7529115487240699	clean	577b940aee94fbd7
-632	2279	7546763934231375	CMakeFiles/MemoFlip.dir/parentdashboard.cpp.obj	820c471c68a55a72
-634	2324	7546763934251376	CMakeFiles/MemoFlip.dir/studentdashboard.cpp.obj	94ec08cb8f7414e0
-897	941	7543772257501196	MemoFlip_autogen/EWIEGA46WW/qrc_resources.cpp	d88add2718af2cc8
-897	941	7543772257501196	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/EWIEGA46WW/qrc_resources.cpp	d88add2718af2cc8
-963	1019	7543772257779293	CMakeFiles/MemoFlip.dir/MemoFlip_autogen/EWIEGA46WW/qrc_resources.cpp.obj	603b95370a887798
-201	1535	7543803477887161	CMakeFiles/MemoFlip.dir/cardwidget.cpp.obj	2563aff989142a3e
-17	86	7546765347560277	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	60888e87a722e3e3
-93	208	7546765348317490	MemoFlip_autogen/timestamp	9d33c1bd6753ff03
-93	208	7546765348317490	MemoFlip_autogen/mocs_compilation.cpp	9d33c1bd6753ff03
-93	208	7546765348317490	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/timestamp	9d33c1bd6753ff03
-93	208	7546765348317490	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/mocs_compilation.cpp	9d33c1bd6753ff03
-211	1497	7546765349495950	CMakeFiles/MemoFlip.dir/parentdashboard.cpp.obj	820c471c68a55a72
-213	1613	7546765349515979	CMakeFiles/MemoFlip.dir/studentdashboard.cpp.obj	94ec08cb8f7414e0
-209	1887	7546765349475910	CMakeFiles/MemoFlip.dir/mainwindow.cpp.obj	741885f7e412fa56
-215	1899	7546765349535986	CMakeFiles/MemoFlip.dir/professordashboard.cpp.obj	ec5da6ae62a0d3b
-217	2089	7546765349555994	CMakeFiles/MemoFlip.dir/gamewindow.cpp.obj	98a3993bde0d991f
-2089	2634	7546765368284100	MemoFlip.exe	c35da140ad75f7e4
-15	81	7546767082317360	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	60888e87a722e3e3
-89	205	7546767083052427	MemoFlip_autogen/timestamp	9d33c1bd6753ff03
-89	205	7546767083052427	MemoFlip_autogen/mocs_compilation.cpp	9d33c1bd6753ff03
-89	205	7546767083052427	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/timestamp	9d33c1bd6753ff03
-89	205	7546767083052427	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/mocs_compilation.cpp	9d33c1bd6753ff03
-208	1551	7546767084245254	CMakeFiles/MemoFlip.dir/parentdashboard.cpp.obj	820c471c68a55a72
-210	1663	7546767084270311	CMakeFiles/MemoFlip.dir/studentdashboard.cpp.obj	94ec08cb8f7414e0
-206	1882	7546767084225237	CMakeFiles/MemoFlip.dir/mainwindow.cpp.obj	741885f7e412fa56
-212	1905	7546767084290414	CMakeFiles/MemoFlip.dir/professordashboard.cpp.obj	ec5da6ae62a0d3b
-214	2092	7546767084310417	CMakeFiles/MemoFlip.dir/gamewindow.cpp.obj	98a3993bde0d991f
-2092	2399	7546767103092425	MemoFlip.exe	c35da140ad75f7e4
-15	82	7546767966655779	C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	60888e87a722e3e3
+460	4173	7548133329812004	CMakeFiles/MemoFlip.dir/parentdashboard.cpp.obj	a9c1f556a808e5e7
+487	4407	7548133330083012	CMakeFiles/MemoFlip.dir/studentdashboard.cpp.obj	9ac04f9bc26c0ed8
+2695	2782	7547174914922164	MemoFlip_autogen/EWIEGA46WW/qrc_resources.cpp	ba566b54923ee14b
+3071	4498	7547174917947395	CMakeFiles/MemoFlip.dir/MemoFlip_autogen/EWIEGA46WW/qrc_resources.cpp.obj	c514e0b54029eefd
+3027	9922	7547174917513341	CMakeFiles/MemoFlip.dir/cardwidget.cpp.obj	4d02cee5ab1cd6f0
+10	142	7548133325316702	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	b85ea8f85b710599
+154	434	7548133326752758	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/timestamp	af1c82d4c97b62d
+154	434	7548133326752758	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/mocs_compilation.cpp	af1c82d4c97b62d
+13	154	7548133542097647	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	b85ea8f85b710599
+166	439	7548133543625913	MemoFlip_autogen/timestamp	af1c82d4c97b62d
+166	439	7548133543625913	MemoFlip_autogen/mocs_compilation.cpp	af1c82d4c97b62d
+166	439	7548133543625913	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/timestamp	af1c82d4c97b62d
+166	439	7548133543625913	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/mocs_compilation.cpp	af1c82d4c97b62d
+459	4371	7548133546563182	CMakeFiles/MemoFlip.dir/parentdashboard.cpp.obj	a9c1f556a808e5e7
+483	4689	7548133546794762	CMakeFiles/MemoFlip.dir/studentdashboard.cpp.obj	9ac04f9bc26c0ed8
+440	5022	7548133546360202	CMakeFiles/MemoFlip.dir/mainwindow.cpp.obj	30a2fe1086bf6115
+510	5109	7548133547064359	CMakeFiles/MemoFlip.dir/professordashboard.cpp.obj	a173a73d09a2faea
+534	5364	7548133547302789	CMakeFiles/MemoFlip.dir/gamewindow.cpp.obj	376014ae126806b4
+5364	5866	7548133595602964	MemoFlip.exe	c35da140ad75f7e4
+10	144	7548134829902511	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	b85ea8f85b710599
+14	192	7548139066668907	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	b85ea8f85b710599
+203	531	7548139068559252	MemoFlip_autogen/timestamp	af1c82d4c97b62d
+203	531	7548139068559252	MemoFlip_autogen/mocs_compilation.cpp	af1c82d4c97b62d
+203	531	7548139068559252	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/timestamp	af1c82d4c97b62d
+203	531	7548139068559252	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/mocs_compilation.cpp	af1c82d4c97b62d
+554	5287	7548139072079491	CMakeFiles/MemoFlip.dir/parentdashboard.cpp.obj	a9c1f556a808e5e7
+579	5522	7548139072330984	CMakeFiles/MemoFlip.dir/studentdashboard.cpp.obj	9ac04f9bc26c0ed8
+532	6205	7548139071853795	CMakeFiles/MemoFlip.dir/mainwindow.cpp.obj	30a2fe1086bf6115
+604	6297	7548139072580999	CMakeFiles/MemoFlip.dir/professordashboard.cpp.obj	a173a73d09a2faea
+646	6663	7548139073001054	CMakeFiles/MemoFlip.dir/gamewindow.cpp.obj	376014ae126806b4
+6663	7157	7548139133168023	MemoFlip.exe	c35da140ad75f7e4
+12	136	7548139449650793	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	b85ea8f85b710599
+149	376	7548139451022978	MemoFlip_autogen/timestamp	af1c82d4c97b62d
+149	376	7548139451022978	MemoFlip_autogen/mocs_compilation.cpp	af1c82d4c97b62d
+149	376	7548139451022978	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/timestamp	af1c82d4c97b62d
+149	376	7548139451022978	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/mocs_compilation.cpp	af1c82d4c97b62d
+413	5010	7548139453660501	CMakeFiles/MemoFlip.dir/parentdashboard.cpp.obj	a9c1f556a808e5e7
+450	5378	7548139454034937	CMakeFiles/MemoFlip.dir/studentdashboard.cpp.obj	9ac04f9bc26c0ed8
+377	6129	7548139453304742	CMakeFiles/MemoFlip.dir/mainwindow.cpp.obj	30a2fe1086bf6115
+474	6248	7548139454278355	CMakeFiles/MemoFlip.dir/professordashboard.cpp.obj	a173a73d09a2faea
+502	6544	7548139454552047	CMakeFiles/MemoFlip.dir/gamewindow.cpp.obj	376014ae126806b4
+6544	7082	7548139514976348	MemoFlip.exe	c35da140ad75f7e4
+14	151	7548141403715430	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	b85ea8f85b710599
+161	404	7548141405187867	MemoFlip_autogen/timestamp	af1c82d4c97b62d
+161	404	7548141405187867	MemoFlip_autogen/mocs_compilation.cpp	af1c82d4c97b62d
+161	404	7548141405187867	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/timestamp	af1c82d4c97b62d
+161	404	7548141405187867	C:/Users/jepin/Github Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/mocs_compilation.cpp	af1c82d4c97b62d
+436	5115	7548141407937192	CMakeFiles/MemoFlip.dir/parentdashboard.cpp.obj	a9c1f556a808e5e7
+467	5580	7548141408246224	CMakeFiles/MemoFlip.dir/studentdashboard.cpp.obj	9ac04f9bc26c0ed8
+405	6179	7548141407630194	CMakeFiles/MemoFlip.dir/mainwindow.cpp.obj	30a2fe1086bf6115
+503	6411	7548141408610520	CMakeFiles/MemoFlip.dir/professordashboard.cpp.obj	a173a73d09a2faea
+545	6791	7548141409025677	CMakeFiles/MemoFlip.dir/gamewindow.cpp.obj	376014ae126806b4
+6791	7333	7548141471480728	MemoFlip.exe	c35da140ad75f7e4

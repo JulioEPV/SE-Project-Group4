@@ -1,5 +1,5 @@
-C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/EWIEGA46WW/moc_studentdashboard.cpp: C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/studentdashboard.h \
-  C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/moc_predefs.h \
+C:/Users/jepin/Github\ Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/EWIEGA46WW/moc_studentdashboard.cpp: C:/Users/jepin/Github\ Projects/SE-Project-Group4/MemoFlip/studentdashboard.h \
+  C:/Users/jepin/Github\ Projects/SE-Project-Group4/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MemoFlip_autogen/moc_predefs.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QByteArray \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QList \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QString \
@@ -387,4 +387,4 @@ C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/build/Desktop_Qt_6_8_0_MinGW_64_bit
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/alexi/Desktop/SoftwareProj/MemoFlip/gamewindow.h
+  C:/Users/jepin/Github\ Projects/SE-Project-Group4/MemoFlip/gamewindow.h
